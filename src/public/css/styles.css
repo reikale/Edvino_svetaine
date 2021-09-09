@@ -47,6 +47,7 @@ p{
       --fs-h3: 1.5rem;
       --fs-body: 1.125rem;
     }
+    
   }
   
   /* General Styles */
@@ -68,12 +69,7 @@ p{
     display: block;
     max-width: 100%;
   }
-  
-  /* Links */
-  :focus {
-    outline: 3px solid var(--clr-accent);
-    outline-offset: 3px;
-  }
+ 
   /* Buttons */
   .btn {
     display: inline-block;
@@ -397,6 +393,15 @@ p{
     .section__title--intro{
       margin-top: 0;
       margin-left: 20px;
+    }
+  }
+
+  @media (min-width: 950px){
+    .gallery a{
+      max-width: 100%;
+    }
+    .gallery{
+      max-width: 1080px;
     }
   }
   /* About me section */
